@@ -17,7 +17,7 @@ namespace Semester2_Exercise3.Exercises
         public void HourlyPayRate()
         {
             //propmts the user the hourly rate expected
-            Console.Write("Hello, please input your hourly rate between $7.50 and $49.00: ");
+            Console.Write("Hello, please input your hourly rate between $5.65 and $49.99: ");
             double hourRate = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("----------------------------");
 
@@ -26,7 +26,7 @@ namespace Semester2_Exercise3.Exercises
             while (hourRate < 7.50 || hourRate > 49.00)
             {
 
-                Console.WriteLine($"${hourRate} is invalid! Please, try an hourly rate between $7.50 and $49.00");
+                Console.WriteLine($"${hourRate} is invalid! Please, try an hourly rate between $5.99 and $49.99");
 
                 Console.Write("\nPlease enter valid rate here:");
 
