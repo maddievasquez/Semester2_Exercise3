@@ -23,7 +23,7 @@ namespace Semester2_Exercise3.Exercises
 
             //A loop i created to check if the hour rate is within the range already set, if its not
             // prompt the user to do it again
-            while (hourRate < 7.50 || hourRate > 49.00)
+            while (hourRate < 5.65 || hourRate > 49.99)
             {
 
                 Console.WriteLine($"${hourRate} is invalid! Please, try an hourly rate between $5.99 and $49.99");
